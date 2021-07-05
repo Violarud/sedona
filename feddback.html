@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEDONA</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="main-header">
+        <ul class="main-header__list">
+            <li class="main-header__item"><a href="index.html">Главная</a></li>
+            <li class="main-header__item"><a href="./photoandvideo.html">Фото и видео</a></li>
+            <li class="main-header__logo main-header__item">
+                <a href="index.html"><img src="./images/logotype-desktop.svg" alt=""></a>
+            </li>
+            <li class="main-header__item"><a href="#">Форма отзыва</a></li>
+            <li class="main-header__item"><a href="#">HTML Academy</a></li>
+        </ul>
+    </header>
+
+    <main class="container">
+        <section class="main-background">
+            <div class="main-image">
+                <img src="./images/text-index.svg" alt="">
+            </div>
+        </section>
+        <p class="leavefeedback-text">Оставьте свой отзыв</p>
+        <p class="leavefeedback-text2">Помогите нашим отелям стать лучше! Оставьте отзыв о них,</br>а также о посещенных вами достопримечательностях</p>
+        <section class="impressionsabout-text">
+            <p class="main-impressions">Ваше общее впечатление:</p>
+            <p class="main-impressions">Представьтесь:</p>
+        </section>
+        <section class="main-forms">
+            <form class="impressionsradio">
+                <label class="goodtext"><input type="radio" name="question" value="yes" class="goodtext">Скорее положительное</label></br>
+                <label class="badtext"><input type="radio" name="question" value="no" class="badbutton">Скорее отрицательное</label></br>
+                <label class="neutraltext"><input type="radio" name="question" value="no" class="badbutton">Затрудняюсь ответить</label>
+            </form>
+            <form class="name-form" action="">
+                <label class="visually-hidden" for="login">Имя*:</label>
+                <input type="text" id="login" name="login" placeholder="Пётр" class="first-name"><br><br>
+                <label class="visually-hidden" for="login">Фамилия*:</label>
+                <input type="text" id="login" name="login" placeholder="Иванов" class="second-name"><br><br>
+                <label class="visually-hidden" for="login">Отчество:</label>
+                <input type="text" id="login" name="login" placeholder="Александрович" class="otchestvo">
+            </form>
+        </section>
+        <p class="information">Контактная информация:</p>
+        <section class="phone-and-email">
+            <form class="phone">
+                <label class="visually-hidden" for="login">Телефон*:</label>
+                <input type="text" id="login" name="login" placeholder="Введите телефон" class="phone-field">
+                <img src="./images/phone.png" alt="" class="phoneicon">
+            </form>
+            <form class="email">
+                <label class="visually-hidden" for="login">Электронная почта*:</label>
+                <input type="text" id="login" name="login" placeholder="Введите e-mail" class="email-field">
+                <img src="./images/mail.png" alt="" class="mailicon">
+            </form>
+        </section>
+        <div class="attractions-lines">
+            <hr class="before-line">
+            <p class="attractions">Посещенные<br>достопримечательности:</p>
+            <hr class="after-lines">
+        </div>
+        <section class="list-of-attractions">
+            <form class="checkbox-attractions">
+                <label class="four-attractions devils-bridge">Мост Дьявола
+                    <input type="checkbox">
+                    <span class="check1 "></span>
+                </label>
+                <label class="four-attractions mountain">Гора-Колокол
+                    <input type="checkbox">
+                    <span class="check1 "></span>
+                </label>
+                <label class="four-attractions park">Слайд-парк
+                    <input type="checkbox">
+                    <span class="check1 "></span>
+                </label>
+                <label class="four-attractions red-rocks">Красные скалы
+                    <input type="checkbox">
+                    <span class="check1 "></span>
+                </label>
+            </form>
+        </section>
+        <p class="emotions">Опишите свои эмоции:</p>
+        <form class="text-impressions">
+            <textarea rows="10" placeholder="Опишите подробно все свои восторги"></textarea>
+        </form>
+        <form class="button-form">
+            <button class="button-send">Отправить отзыв</button>
+        </form>
+    </main>
+    <section class="footer">
+        <div class="hesh">
+            <p class="heshteg">#visitsedona</p>
+        </div>
+        <section class="social">
+            <div class="twiter">
+                <img class="twit" src="./images/icon-twitter.png" alt="">
+            </div>
+            <div class="facebook">
+                <img class="face" src="./images/icon-facebook.png" alt="">
+            </div>
+            <div class="youtube">
+                <img class="tube" src="./images/icon-youtube.png" alt="">
+            </div>
+        </section>
+        <section class="academy">
+            <div class="created">
+                <p>Разработано</p>
+            </div>
+            <div class="acadimage">
+                <img src="./images/htmlacademy.png" alt="">
+            </div>
+        </section>
+    </section>
+</body>
+
+</html>
