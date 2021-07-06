@@ -106,11 +106,61 @@ body {
 
 .real-city-number__mobile {
     margin: 0;
-    padding-top: 40px;
+    padding-top: 20px;
     font-size: 18px;
     font-family: PT Sans;
     color: rgb(255, 255, 255);
-    font-weight: bold;
     text-transform: uppercase;
     text-align: center;
+}
+
+.triangle__mobile {
+    width: 100%;
+    position: relative;
+}
+
+.real-city-second__mobile {
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-family: PT Sans;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.house {
+    display: flex;
+    margin-top: 25px;
+}
+
+.house-icon-mobile {
+    padding-top: 5px;
+    padding-left: 20px;
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+.main-house__mobile {
+    font-size: 18px;
+    font-family: PT Sans;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.second-house__mobile {
+    font-size: 14px;
+    font-family: PT Sans;
+    color: #333333;
+    text-transform: uppercase;
+    text-align: left;
+    padding-left: 70px;
+}
+
+.city-image__mobile {
+    width: 100%;
 }
